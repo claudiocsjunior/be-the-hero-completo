@@ -1,0 +1,2 @@
+criar aplicação
+npx create-react-app nome_da_aplicacao

@@ -1,0 +1,38 @@
+
+#criar package.json da aplicação
+npm init -y 
+
+#utilizar framework express
+npm install express
+
+#rodar aplicação
+node index.js
+
+#instalar nodemon para não ficar rodando sempre o node index.js
+npm install nodemon -D
+modificar o aquivo packge.json-> scripts -> substituier test por start para "nodemon index.js"
+rodar a aplicação por npm start
+
+#instalar o knexjs para conexão com banco de dados
+npm install knex --save
+
+#instalar o drive do sqlite
+npm install sqlite3
+
+#criar arquivo de conexão com o banco de dados
+npx knex init
+
+#criar migrations
+npx knex migrate:make nome_da_migration
+
+#rodar migrations
+npx knex migrate:latest
+
+#voltar o estado antes do ultimo migrate
+npx knex migrate:rollback
+
+#migrations já executadas
+npx knex migrate:status
+
+#instalar cors - determinar quem que vai poder acessar essa nossa aplicação
+npm install cors
