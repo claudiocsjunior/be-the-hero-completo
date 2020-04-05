@@ -1,2 +1,16 @@
 criar aplicação
 npx create-react-app nome_da_aplicacao
+
+Apagar as coisas desnecessárias da aplicação
+
+rodar aplicação 
+npm start
+
+instalar fonts
+npm install react-icons
+
+instalar rotas no react
+npm install react-router-dom
+
+instalar o client http - axios
+npm install axios
