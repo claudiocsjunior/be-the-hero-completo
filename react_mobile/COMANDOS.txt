@@ -1,0 +1,26 @@
+Adicionar o expo na maquina npm install 
+npm install -g expo-cli
+
+Iniciar projeto 
+expo init nome_do_projeto
+
+Rodar aplicação
+npm start
+
+instalar a biblioteca de rotas
+https://reactnavigation.org/docs/getting-started
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack
+
+instalar constants
+expo install expo-constants
+
+instalar expo email
+expo install expo-mail-composer
+
+instalar o axios
+npm install axios
+
+adicionar o pacote intl
+npm install intl
